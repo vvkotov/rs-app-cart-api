@@ -1,0 +1,13 @@
+# don't rebuild container on node modules change
+node_modules/
+
+# don't rebuild container on git history change
+.git
+.gitignore
+
+.vscode
+npm-debug.log.*
+coverage
+LICENSE
+README.md
+.cache
